@@ -38,6 +38,8 @@ body {
   display: -webkit-box;
   /* -webkit-line-clamp: 4; */
   -webkit-box-orient: vertical;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
 }
 
 .project-title {

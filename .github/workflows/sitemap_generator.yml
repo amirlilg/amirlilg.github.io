@@ -1,0 +1,4 @@
+- name: Generate the sitemap
+  uses: cicirello/generate-sitemap@v1.9.1
+  with:
+    base-url-path: https://amirlilg.github.io/

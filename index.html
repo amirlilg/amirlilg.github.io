@@ -31,10 +31,10 @@
         <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
         <span class="nav-title">Amirali Gatmiri</span>
          <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <!-- <a class="button" href="mailto:amirlilg@gmail.com">
-          <span class="button-text">Contact Me</span>
+        <a class="button" href="mailto:amirlilg@gmail.com">
+          <span class="button-text">Contact</span>
         </a>
-		-->
+	
       </a>
     </div>
 
@@ -64,8 +64,8 @@
 		
             <div class="header-text">
               <span class="main-title">Hello, I'm Amirali.</span>
-              <div class="body-text">I'm a data scientist and developer who likes to gather information from data & working in tandem with others;
-									A computer engineering graduate from Sharif University of Technlogy.
+              <div class="body-text">I'm a software engineer and machine learning researcher with 
+                a passion for Deep Learning and Natural Language Processing.
 				</div>
             </div>
             <a class="button" id="my-work-link">
@@ -90,18 +90,21 @@
         <span class="subheader-text">About Me</span>
         <div class="about-section-content">
 		
-		  <div class="body-text">paragraph 1 TBA.</div>
-		  
-          <div class="body-text">
-		  I had the honor of working with 
-		  <strong><a href="https://mahdi.jafari.siavoshani.ir/">Dr. Mahdi Jafari Siavoshani</a></strong>
-		  at
-		  <strong><a href="https://inl-lab.net/">Information, Network & Learning Lab</a></strong>.
-		  I am currently working with 
-		  <strong><a href="http://sharif.edu/~sameti/">Dr. Hossein Sameti</a></strong>
-		  and Dr. Soroush Gooran at 
-		  <strong>Lexeme</strong>,
-		  a research & technology group working over Natural Language Processing specifically for the Persian language.
+		  <div class="body-text">I am passionate about solving real-world problems using deep learning and software engineering.
+        My work spans building AI-powered tools, benchmarking models, and exploring innovative solutions in Natural Language Processing, speech recognition and network data.
+      </div>
+      <div class="body-text">
+		  I have worked on network data analysis at
+		  <strong><a href="https://inl-lab.net/">Information, Network & Learning Lab</a></strong>
+		  under the supervision of 
+      <strong><a href="https://mahdi.jafari.siavoshani.ir/">Dr. Mahdi Jafari Siavoshani</a></strong>.
+
+      I also have worked in the field of natural language Processing at 
+		  <strong><a href="https://asr-gooyesh.com/">Asr Gooyesh</a></strong>,
+      under the supervision of 
+      <strong><a href="http://sharif.edu/~sameti/">Dr. Hossein Sameti</a></strong>.
+		  <!-- and Dr. Soroush Gooran 
+		  <!-- a research & technology group working on Natural Language Processing for the Persian language. -->
 		  </div>
 		  
           
@@ -137,25 +140,24 @@
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
 		  <!-- <div>TBA</div> -->
-		  
-          <div class="project-card">
-            <!-- <img src="./assets/images/desktop.jpeg" class="project-image"> -->
-			<image src="./assets/images/project - TLS Info Leakage with ML.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">TLS Info Leakage with ML</div>
-              <div class="body-text project-card-text">Using Machine Learning methodologies, we propose a web fingerprinting attack, in which we try to extract information 
-			  about users' data, specifically which website the user is visiting. We then find the source of leakage using ML interpretation, and mask those parts.
-			  Afterwards, we try information extraction again. With each try, we see that information leakage reduces, and we learn about TLS's leaker parts.</div>
-            </div>
-			<!--
-            <a class="button" href="./project-pages/project-template.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-			-->
-          </div>
-		  
-		  
+
+        <div class="project-card">
+        <img src="./assets/images/project - ASR benchmark & data.jpg" class="project-image">
+        <div class="project-card-text-container">
+          <div class="subheader-text project-title">ASR Benchmark with New Data</div>
+          <div class="body-text project-card-text">We propose a method to benchmark different Automated Speech Recognition models
+    with our new collected testset. We also see that our new wav2vec2 model [utilizing language models & ngram] performs
+    better on this dataset than other state-of-the-art models.
+    </div>
+  <!--
+        <a class="button" href="./project-pages/project-template.html">
+          <span class="button-text">Read More</span>
+          <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a> -->
+      </div> 
+      </div>
+
+
           <div class="project-card">
 		  
             <img src="./assets/images/project - Causal Inference on Comm Data.png" class="project-image">
@@ -177,29 +179,40 @@
           </div>
 		  
 		  
-          <div class="project-card">
-            <img src="./assets/images/project - ASR benchmark & data.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">ASR Benchmark with New Data</div>
-              <div class="body-text project-card-text">We propose a method to benchmark different Automated Speech Recognition models
-			  with our new collected testset. We also see that our new wav2vec2 model [utilizing language models & ngram] performs
-				better on this dataset than other state-of-the-art models [ongoing].
-			  </div>
-			<!--
-            <a class="button" href="./project-pages/project-template.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a> -->
-          </div> 
-		  
-		  
-		  
+
+
+        <div class="project-card">
+          <!-- <img src="./assets/images/desktop.jpeg" class="project-image"> -->
+    <image src="./assets/images/project - TLS Info Leakage with ML.jpg" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">TLS Info Leakage with ML</div>
+            <div class="body-text project-card-text">Using Machine Learning methodologies, we propose a web fingerprinting attack, in which we try to extract information 
+      about users' data, specifically which website the user is visiting. We then find the source of leakage using ML interpretation, and mask those parts.
+      Afterwards, we try information extraction again. With each try, we see that information leakage reduces, and we learn about TLS's leaker parts.</div>
+          </div>
+    <!--
+          <a class="button" href="./project-pages/project-template.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+          </a>
+    -->
         </div>
+
+
       </div>
     </div>
 
     <!-- FOOTER -->
     <div id="footer">
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/amirali-gatmiri-91594368/">
+        <image src="./assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" target="_blank" href="https://github.com/amirlilg">
+        <image src="./assets/icons/github-mark.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" href="mailto:amiraligatmiri@gmail.com">
+        <image src="./assets/icons/mail.svg" class="footer-icon"/>
+      </a>
       <!-- 
         TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
 

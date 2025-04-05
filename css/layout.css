@@ -21,10 +21,10 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 225px 425px;
+  margin: 100px 425px;
   display: flex;
   flex-direction: column;
-  gap: 96px;
+  gap: 48px;
 }
 
 
@@ -177,28 +177,28 @@ body {
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
   #main-content {
-    margin: 225px 275px;
+    margin: 100px 275px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1200px) {
   #main-content {
-    margin: 225px 175px;
+    margin: 100px 175px;
   }
 }
 
 /* Large devices (laptops/desktops, 1000px and below) */
 @media only screen and (max-width: 1000px) {
   #main-content {
-    margin: 225px 75px;
+    margin: 100px 75px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   #main-content {
-    margin: 150px 50px;
+    margin: 100px 50px;
   }
 
   #portfolio-header {
@@ -213,7 +213,7 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and below) */
 @media only screen and (max-width: 600px) {
   #main-content {
-    margin: 125px 20px;
+    margin: 100px 20px;
   }
 
   .project-card {
@@ -223,3 +223,20 @@ body {
 
 
 
+@media only screen and (max-width: 800px) {
+  .portfolio-header-image {
+    width: 70%; /* Makes image smaller */
+    margin: 0 auto; /* Centers the image */
+  }
+  
+  #portfolio-header-image-container {
+    align-items: center; /* Centers the image container contents */
+  }
+}
+
+/* Even smaller devices */
+@media only screen and (max-width: 600px) {
+  .portfolio-header-image {
+    width: 50%; /* Makes image even smaller on very small screens */
+  }
+}
